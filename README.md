@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Women_Safety_Box
 This is an Android App for Women or any Female, which Will Call to an Emergency number, based on a specific voice command like "Help" . It will also send SMS with current GPS coordinates to those numbers.
 
@@ -23,3 +24,6 @@ This is an Android App for Women or any Female, which Will Call to an Emergency 
 
 
 
+=======
+# DSC-Challenge-2020
+>>>>>>> 6f662cda49872d009309d9a8cb4f389c1917b413
