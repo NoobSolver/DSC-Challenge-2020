@@ -26,4 +26,4 @@ This is an Android App for Women or any Female, which Will Call to an Emergency 
 
 =======
 # DSC-Challenge-2020
->>>>>>> 6f662cda49872d009309d9a8cb4f389c1917b413
+>>>>>>> Tail
