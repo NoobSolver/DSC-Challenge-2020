@@ -20,6 +20,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.UUID;
+import java.util.logging.Logger;
 
 public class Speech {
 
@@ -311,6 +312,11 @@ public class Speech {
     }
 
 
+    public void startListening()
+            throws SpeechRecognitionNotAvailable, GoogleVoiceTypingDisabledException {
+        startListening();
+    }
+
     public void startListening(final SpeechDelegate delegate)
             throws SpeechRecognitionNotAvailable, GoogleVoiceTypingDisabledException {
         startListening(null, delegate);
@@ -321,8 +327,9 @@ public class Speech {
             throws SpeechRecognitionNotAvailable, GoogleVoiceTypingDisabledException {
         if (mIsListening) return;
 
-        if (mSpeechRecognizer == null)
+        if (mSpeechRecognizer == null) {
             throw new SpeechRecognitionNotAvailable();
+        }
 
         if (delegate == null)
             throw new IllegalArgumentException("delegate must be defined!");
