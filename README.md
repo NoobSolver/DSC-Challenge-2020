@@ -12,9 +12,9 @@ This is an Android App for Women or any Female, which Will Call to an Emergency 
  # Here are the steps to check these:-
 
 1. [Install Android Studio] if you don't already have it.
-2. Download the sample.
-3. Import the sample into Android Studio.
-4. Build and run the sample.
+2. Download the project.
+3. Import the project into Android Studio.
+4. Build and run the project.
 or you can clone this repositry in git command line using the following link-
 https://github.com/NoobSolver/DSC-Challenge-2020.git
 
