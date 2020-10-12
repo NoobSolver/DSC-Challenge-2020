@@ -56,7 +56,7 @@
             android:label="@string/title_activity_maps" />
 
         <service
-            android:name="com.womensafety.shajt3ch.MyService"
+            android:name="com.womensafety.gaurav.MyService"
             >
         </service>
 
